@@ -48,9 +48,9 @@ console.log(filtered)
         
    <p style={{fontWeight:"bold",}}>Definition:</p>
        
-        { inputValue?
+        { inputValue && filtered.length?
            <MeanigList mean={filtered}  />
-        :<p> Word not found in the dictionary.</p> }
+        :<p>Word not found in the dictionary.</p> }
       </div>
     </div>
   );

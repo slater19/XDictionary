@@ -6,7 +6,7 @@ const Meaniglist = ({mean}) => {
         
           <div>
             <p>{mean[0].meaning}</p>
-            <hr />
+            
           </div>
         
       </div>

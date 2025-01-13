@@ -1,6 +1,6 @@
 
 const Meaniglist = ({mean}) => {
-  console.log(mean)
+  
     return (
       <div>
         

@@ -32,7 +32,7 @@ const Dictionary = () => {
     }
   }
 
-  const filtered = response.filter(response => response.word.includes(inputValue));
+  const filtered = response.filter(response => response.word.toLowerCase().includes(inputValue.toLowerCase()));
 console.log(filtered)
   return (
     <div >

@@ -50,7 +50,7 @@ console.log(filtered)
        
         { inputValue?
            <MeanigList mean={filtered}  />
-        :<p> Word not found in the dictionary </p> }
+        :<p> Word not found in the dictionary.</p> }
       </div>
     </div>
   );
